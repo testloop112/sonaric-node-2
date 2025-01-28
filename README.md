@@ -111,6 +111,7 @@ sudo apt remove --purge sonaricd sonaric
 ### 11.Importing Identity
 To import the identity on a new node from a file called your-node-name.identity, use the sonaric identity-import command:
 
-bash
+```
 sonaric identity-import -i your-node-name.identity
+```
 You will be prompted to enter the password used to encrypt the exported identity. After entering the password, the identity will be imported into your new node.
